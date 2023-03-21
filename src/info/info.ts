@@ -32,7 +32,6 @@ export class skillInfo{
     ];
     //TODO 描述内容编辑，支持插入html标签
     readme: string = "<p> " +
-        "四年前端开发经验，偏向业务功能实现<br>" +
         "熟悉主流前端框架Angular,Vue<br> " +
         "熟悉混合APP开发框架，ionic，Cordova且能够进行Android原生，Cordova插件等开发<br>" +
         "熟悉git，npm等常用团队协作包管理程序<br>" +
@@ -63,7 +62,7 @@ export class workExperienceInfo{
             startTime: '2019年6月',
             endTime: '2022年6月',
             useSkill:"ionic，angular，Cordova，Java",
-            workDescription:"在职期间主要负责公司业务项目华润IMPOS，产品项目科传蜂鸟POS以及科传蜂鸟POS衍生业务项目开发，通过在业务项目中的解耦实践，不断为科传蜂鸟POS产品提供具有共性业务场景的插件以及各类问题修复迭代"
+            workDescription:"在职期间主要负责公司业务项目华润IMPOS，产品项目科传蜂鸟POS以及科传蜂鸟POS衍生业务项目开发，通过在业务项目中的解耦实践与性能优化，不断为科传蜂鸟POS产品提供具有共性业务场景的插件以及各类问题修复迭代"
         }
     ]
 }
