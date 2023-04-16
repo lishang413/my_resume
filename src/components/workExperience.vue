@@ -8,7 +8,7 @@
     </div>
     <div class="company_experience">
       <div>主要技术栈：{{list.useSkill}}</div>
-      <div>{{list.workDescription}}</div>
+      <div v-html="list.workDescription"></div>
     </div>
   </div>
 </div>

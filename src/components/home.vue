@@ -33,6 +33,10 @@
           <div class="info-txt">状态/{{ status }}</div>
         </li>
       </ul>
+      <div class="info-description">
+        求职意向城市：
+        <span class="workPlace" v-for="item in workPlace">{{item.place}}</span>
+      </div>
       <div class="info-description">{{readme}}</div>
     </div>
 
@@ -55,6 +59,7 @@ export default defineComponent({
       diploma:new homeInfo().diploma,
       status:new homeInfo().status,
       readme:new homeInfo().readme,
+      workPlace:new homeInfo().workPlace,
     }
   }
 });
@@ -163,6 +168,10 @@ img {
     line-height: 24px;
     font-size: 18px;
     color: #FFF;
+
+    .workPlace{
+     padding: 5px;
+    }
   }
 }
 @keyframes effect {
@@ -222,6 +231,11 @@ img {
       padding-top: 100px;
       font-size: 20px;
       color: #FFF;
+
+
+      .workPlace{
+        letter-spacing: 20px;
+      }
     }
   }
 }
