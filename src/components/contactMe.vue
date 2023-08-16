@@ -7,7 +7,7 @@
       </div>
       <div class="briefDescription" v-html="briefDescription"> </div>
       <div class="briefDescription" v-for="item in contactInformation">{{ item.title }}:{{item.content}}</div>
-      <a v-if="downloadWord.allow" :href="downloadWord.href" :download="downloadWord.documentName">Word简历件下载</a>
+      <a v-if="downloadWord.allow" :href="downloadWord.href" :download="downloadWord.documentName">pdf简历件下载</a>
     </div>
   </div>
 </template>

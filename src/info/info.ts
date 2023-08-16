@@ -10,9 +10,9 @@ export class homeInfo{
     readme: string = "我是一名拥有四年开发经验的前端工程师，目前正在寻找一份新的的工作。如果你想了解更多，请继续往下看";
     workPlace:object=[
         //TODO 求职意向城市，数据格式为{place：“城市名称”}
-        {place:'杭州'},
-        {place:'上海'},
-        {place:'深圳'},
+        // {place:'杭州'},
+        // {place:'上海'},
+        // {place:'深圳'},
     ]
 }
 
@@ -102,8 +102,8 @@ export class contactMeInfo{
     //TODO 配置是否添加word简历下载，allow为true的时候则允许下载，为false的时候不显示下载链接，若allow为true，则需要配置href：路径为编译后简历文件路径， documentName下载后文件名称
     downloadWord:object={
         allow:true,
-        href:"resume.docx",
-        documentName:"胡涛的个人简历.docx",
+        href:"resume.pdf",
+        documentName:"胡涛的个人简历.pdf",
 
     }
 

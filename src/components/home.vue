@@ -33,10 +33,10 @@
           <div class="info-txt">状态/{{ status }}</div>
         </li>
       </ul>
-      <div class="info-description">
-        求职意向城市：
-        <span class="workPlace" v-for="item in workPlace">{{item.place}}</span>
-      </div>
+<!--      <div class="info-description">-->
+<!--        求职意向城市：-->
+<!--        <span class="workPlace" v-for="item in workPlace">{{item.place}}</span>-->
+<!--      </div>-->
       <div class="info-description">{{readme}}</div>
     </div>
 
